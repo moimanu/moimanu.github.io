@@ -21,7 +21,7 @@
             <p class="subtitle">UI Designer | Estudante de Sistemas de Informação</p>
             <div class="personal-info">
                 <span>Brasileiro</span>
-                <span>23 anos</span>
+                <span id="idade">Carregando...</span> 
                 <span>Ouro Branco (MG)</span>
             </div>
         </header>
@@ -33,7 +33,8 @@
                 <div class="content-col">
                     <div class="job-title">Designer de Interface</div>
                     <span class="company">CREAD - IFMG</span>
-                    <p class="description">Atuação no núcleo de apoio tecnológico do Centro de Referência de Ensino a Distância do IFMG, sendo responsável por demandas de design de interfaces.</p>
+                    <p class="description">Atuação no núcleo de apoio tecnológico do Centro de Referência de Ensino a
+                        Distância do IFMG, sendo responsável por demandas de design de interfaces.</p>
                 </div>
             </div>
 
@@ -42,7 +43,8 @@
                 <div class="content-col">
                     <div class="job-title">Designer UX/UI</div>
                     <span class="company">Grupo Magel</span>
-                    <p class="description">Desenvolvimento de peças gráficas e digitais; criação de protótipos web (desktop e mobile); monitoramento e personalização de mídias sociais.</p>
+                    <p class="description">Desenvolvimento de peças gráficas e digitais; criação de protótipos web
+                        (desktop e mobile); monitoramento e personalização de mídias sociais.</p>
                 </div>
             </div>
 
@@ -51,7 +53,8 @@
                 <div class="content-col">
                     <div class="job-title">Assessor de Marketing (Voluntário)</div>
                     <span class="company">Office Jr. Consultoria</span>
-                    <p class="description">Funções voltadas para UX/UI e front-end na equipe de projetos; design gráfico para social media na equipe de marketing.</p>
+                    <p class="description">Funções voltadas para UX/UI e front-end na equipe de projetos; design gráfico
+                        para social media na equipe de marketing.</p>
                 </div>
             </div>
 
@@ -60,7 +63,8 @@
                 <div class="content-col">
                     <div class="job-title">Auxiliar Administrativo</div>
                     <span class="company">Harsco Environmental</span>
-                    <p class="description">Organização e escaneamento de documentos no setor financeiro; lançamento de notas fiscais nos sistemas Oracle e Apex; interação entre setores.</p>
+                    <p class="description">Organização e escaneamento de documentos no setor financeiro; lançamento de
+                        notas fiscais nos sistemas Oracle e Apex; interação entre setores.</p>
                 </div>
             </div>
         </section>
@@ -142,5 +146,21 @@
     </div>
 
 </body>
+
+<script>
+    function calcularIdade(dataNascimento) {
+        const hoje = new Date();
+        const nascimento = new Date(dataNascimento);
+        let idade = hoje.getFullYear() - nascimento.getFullYear();
+        const mes = hoje.getMonth() - nascimento.getMonth();
+
+        if (mes < 0 || (mes === 0 && hoje.getDate() < nascimento.getDate())) {
+            idade--;
+        }
+        return idade;
+    }
+
+    document.getElementById('idade').innerText = `${calcularIdade('2002-04-10')} anos`;
+</script>
 
 </html>
