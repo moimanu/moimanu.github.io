@@ -15,17 +15,25 @@
     --tag-back: #ac39ff;
 }
 
-button, a, input, div {
-    outline: none !important;
-    -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
+}
+
+button, a, input, div {
+    outline: none !important;
+}
+
+html {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;    /* Firefox */
+}
+
+html::-webkit-scrollbar {
+    display: none;            /* Chrome, Safari, Edge */
 }
 
 body {
@@ -44,9 +52,10 @@ section {
     margin-top: 20px;
 }
 
-/* --- 2. COMPONENTES REUTILIZÁVEIS (BOTÕES E TAGS) --- */
-.filter-btn,
-.btn {
+/* --- 2. COMPONENTES REUTILIZÁVEIS --- */
+
+/* Botões de Filtro e Gerais */
+.filter-btn, .btn {
     padding: 10px 22px;
     border-radius: 25px;
     cursor: pointer;
@@ -55,32 +64,54 @@ section {
     font-size: 14px;
     display: flex;
     align-items: center;
-}
-
-.filter-btn {
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(15px);
     border: 1px solid rgba(0, 0, 0, 0.05);
     color: var(--sub);
 }
 
-.filter-btn.active,
-.btn {
+.filter-btn.active, .btn, .btn-cta {
     background: var(--text);
     color: white;
     border: none;
 }
 
-.filter-btn:hover,
-.btn:hover {
+.btn-cta {
+    background-color: var(--accent);
+}
+
+.filter-btn:hover, .btn:hover {
     transform: translateY(-5px);
 }
 
-.btn-cta {
-    background-color: var(--accent);
-    color: white;
+/* Links Internos dos Cards */
+.card-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+    flex-wrap: wrap;
 }
 
+.card-link-btn {
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: var(--sub);
+    background-color: rgba(0, 0, 0, 0.03);
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.card-link-btn:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Tags */
 .tag {
     background-color: #f5f5f7;
     border: 1px solid #eee;
@@ -93,35 +124,18 @@ section {
     text-transform: uppercase;
 }
 
-.tags-container {
+.tags-container, .tags-wrapper {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    margin-top: 10px;
 }
 
-/* Variantes de Cores das Tags */
-.bg-ui {
-    background: #e1f5fe;
-    color: var(--tag-ui);
-}
+.bg-ui { background: #e1f5fe; color: var(--tag-ui); }
+.bg-logic { background: #ffebee; color: var(--tag-logic); }
+.bg-team { background: #e8f5e9; color: var(--tag-team); }
+.bg-back { background: #f3e5f5; color: var(--tag-back); }
 
-.bg-logic {
-    background: #ffebee;
-    color: var(--tag-logic);
-}
-
-.bg-team {
-    background: #e8f5e9;
-    color: var(--tag-team);
-}
-
-.bg-back {
-    background: #f3e5f5;
-    color: var(--tag-back);
-}
-
-/* --- 3. LAYOUT DO PORTFÓLIO (INDEX) --- */
+/* --- 3. LAYOUT PRINCIPAL (INDEX) --- */
 .container {
     max-width: 1100px;
     width: 100%;
@@ -148,11 +162,9 @@ section {
     gap: 10px;
     margin-bottom: 50px;
     flex-wrap: wrap;
-    position: sticky;
-    top: 20px;
-    z-index: 100;
 }
 
+/* Grid Bento */
 .bento-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -165,7 +177,6 @@ section {
     border-radius: var(--radius);
     padding: 30px;
     box-shadow: var(--shadow);
-    color: inherit;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -173,11 +184,10 @@ section {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.02);
     animation: fadeIn 0.5s ease;
+    cursor: pointer;
 }
 
-.card.hidden {
-    display: none;
-}
+.card.hidden { display: none; }
 
 .card:hover {
     transform: translateY(-8px);
@@ -188,23 +198,104 @@ section {
     position: absolute;
     top: 25px;
     left: 25px;
-    display: flex;
-    gap: 5px;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.card-header {
+    margin-top: auto;
+    transition: all 0.3s ease;
 }
 
-/* --- 4. LAYOUT DO CURRÍCULO (PAGE) --- */
+.card-details {
+    display: none;
+    opacity: 0;
+}
+
+/* --- 4. FUNCIONALIDADE DE EXPANSÃO (APP STORE STYLE) --- */
+.minimize-btn {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+    font-size: 24px;
+    font-weight: 300;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+    z-index: 10;
+}
+
+.minimize-btn:hover { background: rgba(0, 0, 0, 0.1); }
+
+.card.expanded {
+    border-radius: 0;
+    padding: 60px 15%;
+    cursor: default;
+    justify-content: flex-start;
+    background-color: var(--card);
+    overflow-y: auto;
+}
+
+.card.expanded:hover {
+    transform: none;
+    border-color: rgba(0, 0, 0, 0.02);
+}
+
+.card.expanded .minimize-btn { display: flex; }
+
+.card.expanded .tags-wrapper {
+    position: relative;
+    top: 0; left: 0;
+    margin-bottom: 25px;
+}
+
+.card.expanded .card-header {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.card.expanded .card-header h3 {
+    font-size: 2.8rem;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+.card.expanded .card-header p {
+    font-size: 1.25rem;
+    color: var(--sub);
+}
+
+.card.expanded .card-details {
+    display: block;
+    flex: 1;
+    animation: fadeIn 0.6s 0.3s forwards;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    max-width: 800px;
+}
+
+.card.expanded .card-details h2 {
+    font-size: 1.3rem;
+    color: var(--text);
+    margin-top: 20px;
+    margin-bottom: 8px;
+    border-bottom: none;
+}
+
+.card.expanded .card-links {
+    justify-content: flex-end;
+    padding-top: 30px;
+    margin-top: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* --- 5. LAYOUT DO CURRÍCULO (PAGE) --- */
 .page-container {
     background-color: white;
     width: 210mm;
@@ -222,7 +313,6 @@ section {
     display: flex;
     gap: 16px;
     z-index: 1000;
-    background-color: transparent;
 }
 
 header h1 {
@@ -251,9 +341,7 @@ header h1 {
     color: #ccc;
 }
 
-.personal-info span:last-child::after {
-    content: "";
-}
+.personal-info span:last-child::after { content: ""; }
 
 h2 {
     font-size: 12px;
@@ -303,114 +391,70 @@ h2 {
     text-align: justify;
 }
 
-/* --- 5. RESPONSIVIDADE E MOBILE --- */
-@media (min-width: 900px) {
-    .wide {
-        grid-column: span 2;
+/* --- 6. ANIMAÇÕES --- */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
     }
-
-    .tall {
-        grid-row: span 2;
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
-@media screen and (max-width: 899px) {
-    body {
-        padding: 0;
-    }
+/* --- 7. RESPONSIVIDADE E IMPRESSÃO --- */
 
+/* Desktop / Telas Largas */
+@media (min-width: 900px) {
+    .wide { grid-column: span 2; }
+    .tall { grid-row: span 2; }
+}
+
+/* Tablets e Mobile */
+@media screen and (max-width: 899px) {
+    body { padding: 0; }
+    
     .page-container {
         width: 100%;
-        margin: 0;
+        margin: 0 0 70px 0;
         padding: 30px;
         box-shadow: none;
         border-radius: 0;
         min-height: 100vh;
     }
 
-    .bento-grid {
-        grid-auto-rows: auto;
-    }
+    .bento-grid { grid-auto-rows: auto; }
+    .card { min-height: 220px; }
 
-    .card {
-        min-height: 220px;
-    }
-
-    .entry {
-        grid-template-columns: 1fr;
-        gap: 5px;
-    }
-
-    .content-col {
-        border-left: none;
-        padding-left: 0;
-    }
-
-    .date-col {
-        color: var(--accent);
-    }
+    .entry { grid-template-columns: 1fr; gap: 5px; }
+    .content-col { border-left: none; padding-left: 0; }
+    .date-col { color: var(--accent); }
 
     .nav-ui {
-        bottom: 10px;
-        right: 10px;
-    }
-}
-
-/* --- 6. IMPRESSÃO --- */
-@media print {
-    @page {
-        size: A4;
-    }
-
-    body {
-        background-color: white;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-    }
-
-    .page-container {
+        bottom: 0; left: 0;
         width: 100%;
-        margin: 0;
-        padding: 0;
-        box-shadow: none;
-        border: none;
-    }
-
-    .nav-ui {
-        display: none !important;
-    }
-
-    .tag {
-        background-color: #f5f5f7 !important;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-    }
-
-    .entry {
-        display: grid;
-        grid-template-columns: 140px 1fr;
-    }
-}
-
-@media (max-width: 900px) {
-    .nav-ui {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-        
-        display: flex;
         justify-content: space-between;
-        align-items: center;
-        
         padding: 16px 24px;
         background-color: #fff;
-        box-sizing: border-box;
         box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
     }
+}
 
-    .page-container {
-        margin-bottom: 70px; 
-    }
+/* Mobile Específico para Expansão */
+@media (max-width: 768px) {
+    .card.expanded { padding: 40px 20px; }
+    .card.expanded .card-header h3 { font-size: 2.2rem; }
+    .card.expanded .minimize-btn { top: 20px; right: 20px; }
+    .card.expanded .card-links { justify-content: center; }
+}
+
+/* Impressão */
+@media print {
+    @page { size: A4; }
+    body { background-color: white; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page-container { width: 100%; margin: 0; padding: 0; box-shadow: none; border: none; }
+    .nav-ui { display: none !important; }
+    .tag { background-color: #f5f5f7 !important; }
+    .entry { display: grid; grid-template-columns: 140px 1fr; }
 }

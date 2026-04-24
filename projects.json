@@ -1,0 +1,319 @@
+[
+    {
+        "title": "Fran Luz Fotografia",
+        "description": "Site portifólio para fotógrafa em Ouro Branco - MG",
+        "category": "uiux",
+        "layoutClass": "",
+        "tags": [
+            {
+                "name": "Fullstack",
+                "class": "bg-ui"
+            },
+            {
+                "name": "Real Project",
+                "class": "bg-ui"
+            },
+            {
+                "name": "UX/UI",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "https://franluzfotografia.com/",
+        "repoUrl": "",
+        "details": "<h2>O Desafio</h2><p>Criar uma plataforma que transmitisse a essência e o olhar da fotógrafa, garantindo que as imagens carregassem rápido e a navegação fosse intuitiva para potenciais clientes.</p><br><h2>A Solução</h2><p>Desenvolvi uma galeria otimizada com lazy loading e uma arquitetura focada no usuário (User-Centric), reduzindo a taxa de rejeição do portfólio antigo. O layout foi desenhado no Figma antes da implementação final.</p>"
+    },
+    {
+        "title": "Conexão Planilha/Site",
+        "description": "Sugestão de publicação de eventos de corrida utilizando planilha simples.",
+        "category": "uiux",
+        "layoutClass": "wide",
+        "tags": [
+            {
+                "name": "Fullstack",
+                "class": "bg-ui"
+            },
+            {
+                "name": "Real Project",
+                "class": "bg-ui"
+            },
+            {
+                "name": "UX/UI",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "https://corrida-site.vercel.app/",
+        "repoUrl": "",
+        "details": "<h2>O Desafio</h2><p>Criar uma conexão simples entre um site e uma planilha, de maneira a facilitar a indexação de eventos de corrida.</p><br><h2>A Solução</h2><p>Desenvolvi uma aplicação web simples que apenas consome uma planilha pública para exibir os eventos.</p>"
+    },
+    {
+        "title": "Plataforma de aulas",
+        "description": "Interface administrativa com foco em usabilidade e design limpo.",
+        "category": "uiux",
+        "layoutClass": "wide",
+        "tags": [
+            {
+                "name": "Responsive",
+                "class": "bg-ui"
+            },
+            {
+                "name": "JS",
+                "class": "bg-ui"
+            },
+            {
+                "name": "UX Research",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "https://myplataformame.vercel.app/",
+        "repoUrl": "https://github.com/moimanu/my-plataforma",
+        "details": "<h2>Contexto</h2><p>Plataformas de ensino costumam ter painéis confusos. O foco aqui foi criar uma interface administrativa minimalista, com hierarquia de informação clara, facilitando a gestão de módulos e alunos.</p>"
+    },
+    {
+        "title": "Links Launcher",
+        "description": "Interface simples para adicionar links pessoais mais acessados.",
+        "category": "uiux",
+        "layoutClass": "",
+        "tags": [
+            {
+                "name": "Frontend",
+                "class": "bg-ui"
+            },
+            {
+                "name": "Minimalism",
+                "class": "bg-ui"
+            },
+            {
+                "name": "UX Research",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "https://mylinksme.vercel.app/",
+        "repoUrl": "https://github.com/moimanu/my-links",
+        "details": "<p>Um agregador de links focado na velocidade e acessibilidade. Exploração de micro-interações para dar feedback instantâneo ao usuário durante os cliques.</p>"
+    },
+    {
+        "title": "Gamificação",
+        "description": "Exploração de feedbacks visuais para melhorar o engajamento.",
+        "category": "uiux",
+        "layoutClass": "",
+        "tags": [
+            {
+                "name": "Interactivity",
+                "class": "bg-ui"
+            },
+            {
+                "name": "UX Research",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "https://gamificacao-teste.vercel.app/",
+        "repoUrl": "https://github.com/moimanu/gamificacao-prototipo",
+        "details": "<p>Estudo de caso focado em reter a atenção do usuário através de dinâmicas de jogo aplicadas a um contexto não-lúdico. Animações e cores foram escolhidas com base em psicologia das cores.</p>"
+    },
+    {
+        "title": "List Gym",
+        "description": "App focado em rotinas fitness com interface simplificada.",
+        "category": "uiux",
+        "layoutClass": "",
+        "tags": [
+            {
+                "name": "Product Design",
+                "class": "bg-ui"
+            },
+            {
+                "name": "Mobile-First",
+                "class": "bg-ui"
+            }
+        ],
+        "prodUrl": "https://listgym.vercel.app/index.html",
+        "repoUrl": "https://github.com/moimanu/list-gym",
+        "details": "<p>Aplicativo desenhado com a filosofia Mobile-First. O grande diferencial foi simplificar o registro de treinos para que o usuário passe menos tempo no celular e mais tempo focado no exercício.</p>"
+    },
+    {
+        "title": "Trabalhos de POO",
+        "description": "Estruturação de sistemas robustos e escaláveis em Java.",
+        "category": "logic",
+        "layoutClass": "tall",
+        "tags": [
+            {
+                "name": "Java",
+                "class": "bg-back"
+            },
+            {
+                "name": "POO",
+                "class": "bg-back"
+            },
+            {
+                "name": "Architecture",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/moimanu/trabalhos-de-poo",
+        "details": "<p>Compilado de projetos onde apliquei conceitos avançados de Orientação a Objetos, como Polimorfismo, Herança e padrões de projeto (Design Patterns) para garantir um código limpo e escalável.</p>"
+    },
+    {
+        "title": "Exercícios de Lógica",
+        "description": "Desafios matemáticos e estruturais resolvidos com código eficiente.",
+        "category": "logic",
+        "layoutClass": "",
+        "tags": [
+            {
+                "name": "Algorithms",
+                "class": "bg-logic"
+            },
+            {
+                "name": "Problem Solving",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/moimanu/exercicios-de-logica",
+        "details": "<p>Foco em otimização de tempo e memória. Resoluções de desafios algorítmicos que exigem abstração matemática e pensamento crítico estruturado.</p>"
+    },
+    {
+        "title": "CAD Atendimentos",
+        "description": "Sistema de gerenciamento de dados e cadastros hospitalares.",
+        "category": "logic",
+        "layoutClass": "",
+        "tags": [
+            {
+                "name": "Backend",
+                "class": "bg-back"
+            },
+            {
+                "name": "Data Flow",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/moimanu/cad-atendimentos",
+        "details": "<p>Modelagem de banco de dados e estruturação do fluxo de informações sensíveis, focando em segurança e consistência dos dados do paciente e do corpo clínico.</p>"
+    },
+    {
+        "title": "Fundamentos POO",
+        "description": "Base sólida em abstração e pilares de objetos.",
+        "category": "logic",
+        "layoutClass": "wide",
+        "tags": [
+            {
+                "name": "Concepts",
+                "class": "bg-back"
+            },
+            {
+                "name": "Encapsulation",
+                "class": "bg-back"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/moimanu/conceitos-fundamentais-poo",
+        "details": "<p>Projetos iniciais focados no entendimento dos quatro pilares da Programação Orientada a Objetos: Abstração, Encapsulamento, Herança e Polimorfismo.</p>"
+    },
+    {
+        "title": "Intro Prog",
+        "description": "A base fundamental da minha jornada como desenvolvedor.",
+        "category": "logic",
+        "layoutClass": "",
+        "tags": [
+            {
+                "name": "Beginner",
+                "class": "bg-logic"
+            },
+            {
+                "name": "Foundations",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/moimanu/exercicios-intro-prog",
+        "details": "<p>Os primeiros passos. Este repositório reflete a evolução lógica da sintaxe básica até estruturas de controle de fluxo e laços de repetição.</p>"
+    },
+    {
+        "title": "Simulador de Arquivos",
+        "description": "Simulação técnica de gerenciamento de baixo nível.",
+        "category": "team",
+        "layoutClass": "wide",
+        "tags": [
+            {
+                "name": "Java",
+                "class": "bg-logic"
+            },
+            {
+                "name": "Operating Systems",
+                "class": "bg-back"
+            },
+            {
+                "name": "Teamwork",
+                "class": "bg-team"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/allysson-assuncao/simulador-sistema-de-arquivos",
+        "details": "<p>Desenvolvido em equipe, este projeto simula como um Sistema Operacional gerencia alocação de blocos em disco (FAT, i-nodes), exigindo forte colaboração e controle de versão.</p>"
+    },
+    {
+        "title": "Video Processing",
+        "description": "Manipulação de dados de mídia e processamento de imagem.",
+        "category": "team",
+        "layoutClass": "tall",
+        "tags": [
+            {
+                "name": "Processing",
+                "class": "bg-logic"
+            },
+            {
+                "name": "Binary Data",
+                "class": "bg-back"
+            },
+            {
+                "name": "TeamWork",
+                "class": "bg-team"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/allysson-assuncao/VideoProcessing",
+        "details": "<p>Projeto de processamento de sinais multimídia. Implementamos algoritmos para alterar matrizes de pixels em tempo real, exigindo alta performance matemática.</p>"
+    },
+    {
+        "title": "ESOF1 Project",
+        "description": "Projeto de engenharia de software desenvolvido em ambiente colaborativo.",
+        "category": "team",
+        "layoutClass": "",
+        "tags": [
+            {
+                "name": "Agile",
+                "class": "bg-team"
+            },
+            {
+                "name": "Scrum",
+                "class": "bg-back"
+            },
+            {
+                "name": "Teamwork",
+                "class": "bg-team"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/allysson-assuncao/esof1-project",
+        "details": "<p>Vivência prática do ciclo de vida do software utilizando metodologias ágeis (Scrum), desde o levantamento de requisitos até a entrega final e retrospectivas.</p>"
+    },
+    {
+        "title": "Escalonamento",
+        "description": "Otimização de fluxos em tempo real feita em equipe.",
+        "category": "team",
+        "layoutClass": "",
+        "tags": [
+            {
+                "name": "Teamwork",
+                "class": "bg-team"
+            },
+            {
+                "name": "Optimization",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/allysson-assuncao/escalonamento-de-pacientes",
+        "details": "<p>Implementação de filas de prioridade e algoritmos de escalonamento para simular e otimizar o atendimento em um fluxo contínuo de recursos limitados.</p>"
+    }
+]

@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Moisés Emanuel Reis da Cruz</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body>
 
     <div class="container">
         <header class="profile-header">
-            <img src="https://avatars.githubusercontent.com/u/113472007?v=4" class="profile-pic">
+            <img src="https://avatars.githubusercontent.com/u/113472007?v=4" class="profile-pic" alt="Foto de Perfil">
             <h1>Moisés Emanuel</h1>
             <p>UI Designer & Graduando em Sistemas de Informação</p>
         </header>
@@ -24,138 +25,17 @@
             <button class="filter-btn" onclick="filterProjects('team', this)">Equipe</button>
         </nav>
 
-        <main class="bento-grid" id="project-grid">
+        <main class="bento-grid" id="project-grid"></main>
 
-            <a href="https://myplataformame.vercel.app/" class="card wide" data-category="uiux">
-                <div class="tags-wrapper">
-                    <span class="tag bg-ui">Responsive</span>
-                    <span class="tag bg-ui">JS</span>
-                    <span class="tag bg-logic">UX Research</span>
-                </div>
-                <h3>Plataforma de aulas</h3>
-                <p>Interface administrativa com foco em usabilidade e design limpo.</p>
-            </a>
-
-            <a href="https://mylinksme.vercel.app/" class="card" data-category="uiux">
-                <div class="tags-wrapper">
-                    <span class="tag bg-ui">Frontend</span>
-                    <span class="tag bg-ui">Minimalism</span>
-                    <span class="tag bg-logic">UX Research</span>
-                </div>
-                <h3>Links Launcher</h3>
-                <p>Interface simples para adicionar links pessoais mais acessados.</p>
-            </a>
-
-            <a href="https://gamificacao-teste.vercel.app/" class="card" data-category="uiux">
-                <div class="tags-wrapper">
-                    <span class="tag bg-ui">Interactivity</span>
-                    <span class="tag bg-logic">UX Research</span>
-                </div>
-                <h3>Gamificação</h3>
-                <p>Exploração de feedbacks visuais para melhorar o engajamento.</p>
-            </a>
-
-            <a href="https://listgym.vercel.app/index.html" class="card" data-category="uiux">
-                <div class="tags-wrapper">
-                    <span class="tag bg-ui">Product Design</span>
-                    <span class="tag bg-ui">Mobile-First</span>
-                </div>
-                <h3>List Gym</h3>
-                <p>App focado em rotinas fitness com interface simplificada.</p>
-            </a>
-
-            <a href="https://github.com/moimanu/trabalhos-de-poo" class="card tall" data-category="logic">
-                <div class="tags-wrapper">
-                    <span class="tag bg-back">Java</span>
-                    <span class="tag bg-back">POO</span>
-                    <span class="tag bg-logic">Architecture</span>
-                </div>
-                <h3>Trabalhos de POO</h3>
-                <p>Estruturação de sistemas robustos e escaláveis em Java.</p>
-            </a>
-
-            <a href="https://github.com/moimanu/exercicios-de-logica" class="card" data-category="logic">
-                <div class="tags-wrapper">
-                    <span class="tag bg-logic">Algorithms</span>
-                    <span class="tag bg-logic">Problem Solving</span>
-                </div>
-                <h3>Exercícios de Lógica</h3>
-                <p>Desafios matemáticos e estruturais resolvidos com código eficiente.</p>
-            </a>
-
-            <a href="https://github.com/moimanu/cad-atendimentos" class="card" data-category="logic">
-                <div class="tags-wrapper">
-                    <span class="tag bg-back">Backend</span>
-                    <span class="tag bg-logic">Data Flow</span>
-                </div>
-                <h3>CAD Atendimentos</h3>
-                <p>Sistema de gerenciamento de dados e cadastros hospitalares.</p>
-            </a>
-
-            <a href="https://github.com/moimanu/conceitos-fundamentais-poo" class="card wide" data-category="logic">
-                <div class="tags-wrapper">
-                    <span class="tag bg-back">Concepts</span>
-                    <span class="tag bg-back">Encapsulation</span>
-                </div>
-                <h3>Fundamentos POO</h3>
-                <p>Base sólida em abstração e pilares de objetos.</p>
-            </a>
-
-            <a href="https://github.com/moimanu/exercicios-intro-prog" class="card" data-category="logic">
-                <div class="tags-wrapper">
-                    <span class="tag bg-logic">Beginner</span>
-                    <span class="tag bg-logic">Foundations</span>
-                </div>
-                <h3>Intro Prog</h3>
-                <p>A base fundamental da minha jornada como desenvolvedor.</p>
-            </a>
-
-            <a href="https://github.com/allysson-assuncao/simulador-sistema-de-arquivos" class="card wide" data-category="team">
-                <div class="tags-wrapper">
-                    <span class="tag bg-logic">Java</span>
-                    <span class="tag bg-back">Operating Systems</span>
-                    <span class="tag bg-team">Teamwork</span>
-                </div>
-                <h3>Simulador de Arquivos</h3>
-                <p>Simulação técnica de gerenciamento de baixo nível.</p>
-            </a>
-
-            <a href="https://github.com/allysson-assuncao/VideoProcessing" class="card" data-category="team">
-                <div class="tags-wrapper">
-                    <span class="tag bg-logic">Processing</span>
-                    <span class="tag bg-back">Binary Data</span>
-                    <span class="tag bg-team">TeamWork</span>
-                </div>
-                <h3>Video Processing</h3>
-                <p>Manipulação de dados de mídia e processamento de imagem.</p>
-            </a>
-
-            <a href="https://github.com/allysson-assuncao/esof1-project" class="card" data-category="team">
-                <div class="tags-wrapper">
-                    <span class="tag bg-team">Agile</span>
-                    <span class="tag bg-back">Scrum</span>
-                    <span class="tag bg-team">Teamwork</span>
-                </div>
-                <h3>ESOF1 Project</h3>
-                <p>Projeto de engenharia de software desenvolvido em ambiente colaborativo.</p>
-            </a>
-
-            <a href="https://github.com/allysson-assuncao/escalonamento-de-pacientes" class="card wide" data-category="team">
-                <div class="tags-wrapper">
-                    <span class="tag bg-team">Teamwork</span>
-                    <span class="tag bg-logic">Optimization</span>
-                </div>
-                <h3>Escalonamento</h3>
-                <p>Otimização de fluxos em tempo real feita em equipe.</p>
-            </a>
-        </main>
-
-        <footer style="margin-top: 80px; padding-bottom: 40px; text-align: center; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 50px;">
+        <footer
+            style="margin-top: 80px; padding-bottom: 40px; text-align: center; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 50px;">
             <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-                <a href="curriculo.html" class="filter-btn" style="text-decoration: none; display: flex; align-items: center; gap: 8px;">
+                <a href="curriculo.html" class="filter-btn"
+                    style="text-decoration: none; display: flex; align-items: center; gap: 8px;">
                     Ver Currículo Completo
                 </a>
-                <a href="https://www.linkedin.com/in/moisesemanuelreisdacruz/" target="_blank" class="filter-btn" style="text-decoration: none;">
+                <a href="https://www.linkedin.com/in/moisesemanuelreisdacruz/" target="_blank" class="filter-btn"
+                    style="text-decoration: none;">
                     LinkedIn
                 </a>
                 <a href="https://github.com/moimanu" target="_blank" class="filter-btn" style="text-decoration: none;">
@@ -167,26 +47,9 @@
             </p>
         </footer>
     </div>
+    </div>
 
-    <script>
-        function filterProjects(category, btn) {
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-
-            const cards = document.querySelectorAll('.card');
-            cards.forEach(card => {
-                const cardCat = card.getAttribute('data-category');
-                if (category === 'all' || cardCat === category) {
-                    card.classList.remove('hidden');
-                    card.style.animation = 'none';
-                    card.offsetHeight;
-                    card.style.animation = 'fadeIn 0.5s ease forwards';
-                } else {
-                    card.classList.add('hidden');
-                }
-            });
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
