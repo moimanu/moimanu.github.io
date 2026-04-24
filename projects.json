@@ -150,7 +150,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/moimanu/trabalhos-de-poo",
-"details": "<h2>O Desafio</h2><p>Aplicar de forma prática os pilares da Programação Orientada a Objetos em sistemas que exigissem gestão de dados e relacionamentos complexos entre entidades, indo além da sintaxe básica.</p><br><h2>A Solução</h2><p>Desenvolvi dois sistemas fundamentais em Java: uma gestão de biblioteca (com controle de empréstimos, livros e usuários) e um sistema de membros e gamificação. O projeto foca na estruturação de classes robustas e na persistência de dados via arquivos CSV, servindo como base sólida para o entendimento de abstração, encapsulamento e o fluxo de informações em aplicações backend.</p>"    },
+        "details": "<h2>O Desafio</h2><p>Aplicar de forma prática os pilares da Programação Orientada a Objetos em sistemas que exigissem gestão de dados e relacionamentos complexos entre entidades, indo além da sintaxe básica.</p><br><h2>A Solução</h2><p>Desenvolvi dois sistemas fundamentais em Java: uma gestão de biblioteca (com controle de empréstimos, livros e usuários) e um sistema de membros e gamificação. O projeto foca na estruturação de classes robustas e na persistência de dados via arquivos CSV, servindo como base sólida para o entendimento de abstração, encapsulamento e o fluxo de informações em aplicações backend.</p>"
+    },
     {
         "title": "Exercícios de Lógica",
         "description": "Desafios matemáticos e estruturais resolvidos com código eficiente.",
@@ -168,7 +169,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/moimanu/exercicios-de-logica",
-"details": "<h2>O Desafio</h2><p>Desenvolver o raciocínio algorítmico necessário para competições de alto nível, focando em resolução de problemas sob pressão e otimização de recursos.</p><br><h2>A Solução</h2><p>Este repositório é o resultado de um treinamento intensivo de 8 semanas com foco nos desafios da OBI (Olimpíada Brasileira de Informática). Os exercícios abordam desde lógica matemática básica até estruturas de dados mais complexas, focando na eficiência do código para passar em testes de performance e casos de borda técnicos.</p>"    },
+        "details": "<h2>O Desafio</h2><p>Desenvolver o raciocínio algorítmico necessário para competições de alto nível, focando em resolução de problemas sob pressão e otimização de recursos.</p><br><h2>A Solução</h2><p>Este repositório é o resultado de um treinamento intensivo de 8 semanas com foco nos desafios da OBI (Olimpíada Brasileira de Informática). Os exercícios abordam desde lógica matemática básica até estruturas de dados mais complexas, focando na eficiência do código para passar em testes de performance e casos de borda técnicos.</p>"
+    },
     {
         "title": "CAD Atendimentos",
         "description": "Sistema de gerenciamento de dados e cadastros hospitalares.",
@@ -186,7 +188,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/moimanu/cad-atendimentos",
-"details": "<h2>O Desafio</h2><p>Compreender a arquitetura de sistemas web corporativos, garantindo que a lógica de negócio, a interface e o acesso aos dados fossem independentes e fáceis de manter.</p><br><h2>A Solução</h2><p>Desenvolvi um sistema de cadastro hospitalar focado na aplicação prática do padrão MVC utilizando Java. A estrutura separa rigorosamente as responsabilidades entre Controllers, Models e Services, proporcionando um fluxo de dados consistente e seguro. O projeto serviu para consolidar conhecimentos em desenvolvimento web backend e organização de projetos em camadas profissionais.</p>"    },
+        "details": "<h2>O Desafio</h2><p>Compreender a arquitetura de sistemas web corporativos, garantindo que a lógica de negócio, a interface e o acesso aos dados fossem independentes e fáceis de manter.</p><br><h2>A Solução</h2><p>Desenvolvi um sistema de cadastro hospitalar focado na aplicação prática do padrão MVC utilizando Java. A estrutura separa rigorosamente as responsabilidades entre Controllers, Models e Services, proporcionando um fluxo de dados consistente e seguro. O projeto serviu para consolidar conhecimentos em desenvolvimento web backend e organização de projetos em camadas profissionais.</p>"
+    },
     {
         "title": "Fundamentos POO",
         "description": "Base sólida em abstração e pilares de objetos.",
@@ -246,7 +249,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/allysson-assuncao/simulador-sistema-de-arquivos",
-"details": "<h2>O Desafio</h2><p>Simular o funcionamento interno de um Sistema Operacional, focando na gestão de um sistema de arquivos e na execução de comandos via terminal (shell), garantindo a integridade dos dados e a hierarquia de diretórios.</p><br><h2>A Solução</h2><p>Desenvolvido em colaboração acadêmica, este simulador traduz conceitos complexos de SO para uma arquitetura robusta em Java. Utilizamos recursos avançados de POO, como expressões Lambda, para processar comandos de forma funcional e eficiente. O projeto simula operações reais do Linux, gerenciando a alocação de blocos e metadados, sendo um marco na minha compreensão de como software e hardware interagem.</p>"    },
+        "details": "<h2>O Desafio</h2><p>Simular o funcionamento interno de um Sistema Operacional, focando na gestão de um sistema de arquivos e na execução de comandos via terminal (shell), garantindo a integridade dos dados e a hierarquia de diretórios.</p><br><h2>A Solução</h2><p>Desenvolvido em colaboração acadêmica, este simulador traduz conceitos complexos de SO para uma arquitetura robusta em Java. Utilizamos recursos avançados de POO, como expressões Lambda, para processar comandos de forma funcional e eficiente. O projeto simula operações reais do Linux, gerenciando a alocação de blocos e metadados, sendo um marco na minha compreensão de como software e hardware interagem.</p>"
+    },
     {
         "title": "Video Processing",
         "description": "Manipulação de dados de mídia e processamento de imagem.",
@@ -268,7 +272,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/allysson-assuncao/VideoProcessing",
-"details": "<h2>O Desafio</h2><p>Restaurar a qualidade visual de um vídeo antigo afetado por ruídos do tipo 'Salt and Pepper', utilizando técnicas de computação paralela para viabilizar o processamento de grandes matrizes de dados em tempo hábil.</p><br><h2>A Solução</h2><p>Desenvolvido como projeto prático de Organização de Computadores, este trabalho focou na implementação de algoritmos de filtragem de imagem aplicados frame a frame. O diferencial foi a aplicação de conceitos de arquitetura e paralelismo, otimizando o tratamento de pixels para aproveitar o hardware disponível. Foi um marco no entendimento de como a organização do computador dita o limite da performance de software complexos.</p>"    },
+        "details": "<h2>O Desafio</h2><p>Restaurar a qualidade visual de um vídeo antigo afetado por ruídos do tipo 'Salt and Pepper', utilizando técnicas de computação paralela para viabilizar o processamento de grandes matrizes de dados em tempo hábil.</p><br><h2>A Solução</h2><p>Desenvolvido como projeto prático de Organização de Computadores, este trabalho focou na implementação de algoritmos de filtragem de imagem aplicados frame a frame. O diferencial foi a aplicação de conceitos de arquitetura e paralelismo, otimizando o tratamento de pixels para aproveitar o hardware disponível. Foi um marco no entendimento de como a organização do computador dita o limite da performance de software complexos.</p>"
+    },
     {
         "title": "ESOF1 Project",
         "description": "Projeto de engenharia de software desenvolvido em ambiente colaborativo.",
@@ -290,7 +295,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/allysson-assuncao/esof1-project",
-"details": "<h2>O Desafio</h2><p>Integrar-se a uma equipe de desenvolvimento de alunos experientes, adaptando-se rapidamente a um fluxo de trabalho profissional sob metodologias ágeis e uma stack tecnológica desconhecida.</p><br><h2>A Solução</h2><p>Este projeto foi minha porta de entrada para a Engenharia de Software aplicada. Atuei em um ambiente de sprints reais, onde aprendi na prática a importância do controle de versão, documentação de requisitos e comunicação em equipe. Mais do que o resultado técnico, o projeto simboliza um salto de maturidade profissional, onde superei a barreira do conhecimento inicial para contribuir com as entregas do time.</p>"    },
+        "details": "<h2>O Desafio</h2><p>Integrar-se a uma equipe de desenvolvimento de alunos experientes, adaptando-se rapidamente a um fluxo de trabalho profissional sob metodologias ágeis e uma stack tecnológica desconhecida.</p><br><h2>A Solução</h2><p>Este projeto foi minha porta de entrada para a Engenharia de Software aplicada. Atuei em um ambiente de sprints reais, onde aprendi na prática a importância do controle de versão, documentação de requisitos e comunicação em equipe. Mais do que o resultado técnico, o projeto simboliza um salto de maturidade profissional, onde superei a barreira do conhecimento inicial para contribuir com as entregas do time.</p>"
+    },
     {
         "title": "Escalonamento",
         "description": "Otimização de fluxos em tempo real feita em equipe.",
@@ -308,5 +314,6 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/allysson-assuncao/escalonamento-de-pacientes",
-"details": "<h2>O Desafio</h2><p>Simular a gestão de recursos de uma CPU através de diferentes algoritmos de escalonamento, analisando métricas de performance como tempo de espera e turnaround em um contexto hospitalar hipotético.</p><br><h2>A Solução</h2><p>Desenvolvi, em conjunto com a equipe, um simulador que implementa as principais estratégias de escalonamento de Sistemas Operacionais: Round Robin, SJF, SRTF e Prioridade. O projeto utiliza uma arquitetura orientada a interfaces em Java, garantindo a modularidade do código e facilitando a comparação visual entre a eficiência de cada algoritmo no processamento de filas de tarefas.</p>"    }
+        "details": "<h2>O Desafio</h2><p>Simular a gestão de recursos de uma CPU através de diferentes algoritmos de escalonamento, analisando métricas de performance como tempo de espera e turnaround em um contexto hospitalar hipotético.</p><br><h2>A Solução</h2><p>Desenvolvi, em conjunto com a equipe, um simulador que implementa as principais estratégias de escalonamento de Sistemas Operacionais: Round Robin, SJF, SRTF e Prioridade. O projeto utiliza uma arquitetura orientada a interfaces em Java, garantindo a modularidade do código e facilitando a comparação visual entre a eficiência de cada algoritmo no processamento de filas de tarefas.</p>"
+    }
 ]
