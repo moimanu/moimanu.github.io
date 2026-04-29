@@ -2,7 +2,7 @@
 
 ## Portfólio
 Confira meus projetos, estudos de caso, experimentos de interface e sites em produção: 
-🔗 [moimanu.github.io/moimanu](https://moimanu.github.io/moimanu/)
+🔗 [moimanu.github.io](https://moimanu.github.io)
 
 ### UI Designer & Desenvolvedor Front-end em formação
 
