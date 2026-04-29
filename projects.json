@@ -23,6 +23,29 @@
         "details": "<h2>O Desafio</h2><p>Criar uma plataforma que transmitisse a essência e o olhar da fotógrafa, garantindo que as imagens carregassem rápido e a navegação fosse intuitiva para potenciais clientes.</p><br><h2>A Solução</h2><p>Desenvolvi uma galeria otimizada com lazy loading e uma arquitetura focada no usuário (User-Centric), reduzindo a taxa de rejeição do portfólio antigo. O layout foi desenhado no Figma antes da implementação final.</p>"
     },
     {
+        "title": "Tutu Beans",
+        "description": "Automação de publicação de artigos direto do Obsidian para backends customizados.",
+        "category": "logic",
+        "layoutClass": "wide",
+        "tags": [
+            {
+                "name": "TypeScript",
+                "class": "bg-logic"
+            },
+            {
+                "name": "Obsidian API",
+                "class": "bg-ui"
+            },
+            {
+                "name": "Automation",
+                "class": "bg-back"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/moimanu/tutu-beans",
+        "details": "<h2>O Desafio</h2><p>Eliminar a fricção no fluxo de escrita técnica, onde o autor precisa mover arquivos manualmente, tratar imagens e atualizar metadados entre um editor local e um CMS remoto.</p><br><h2>A Solução</h2><p>Desenvolvi um plugin em TypeScript que transforma o Obsidian em uma central de publicação. O sistema automatiza a injeção de UUIDs e timestamps no frontmatter, gerencia o ciclo de vida do artigo e resolve o desafio de anexos convertendo imagens locais em Base64 para transmissão via API. O projeto conta com um Dashboard de Sincronização Global para gerenciar o estado dos arquivos em tempo real.</p>"
+    },
+    {
         "title": "Conexão Planilha/Site",
         "description": "Sugestão de publicação de eventos de corrida utilizando planilha simples.",
         "category": "uiux",
