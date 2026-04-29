@@ -24,7 +24,7 @@
     },
     {
         "title": "Tutu Beans",
-        "description": "Automação de publicação de artigos direto do Obsidian para backends customizados.",
+        "description": "Publicação automática de notas do Obsidian via API.",
         "category": "logic",
         "layoutClass": "wide",
         "tags": [
