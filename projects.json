@@ -26,7 +26,7 @@
         "title": "Tutu Beans",
         "description": "Publicação automática de notas do Obsidian via API.",
         "category": "logic",
-        "layoutClass": "wide",
+        "layoutClass": "",
         "tags": [
             {
                 "name": "TypeScript",
@@ -49,7 +49,7 @@
         "title": "Conexão Planilha/Site",
         "description": "Sugestão de publicação de eventos de corrida utilizando planilha simples.",
         "category": "uiux",
-        "layoutClass": "wide",
+        "layoutClass": "",
         "tags": [
             {
                 "name": "Fullstack",
@@ -72,7 +72,7 @@
         "title": "Plataforma de aulas",
         "description": "Interface administrativa com foco em usabilidade e design limpo.",
         "category": "uiux",
-        "layoutClass": "wide",
+        "layoutClass": "",
         "tags": [
             {
                 "name": "Responsive",
@@ -95,7 +95,7 @@
         "title": "Links Launcher",
         "description": "Interface simples para adicionar links pessoais mais acessados.",
         "category": "uiux",
-        "layoutClass": "",
+        "layoutClass": "wide",
         "tags": [
             {
                 "name": "Frontend",
