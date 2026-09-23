@@ -1,5 +1,74 @@
 [
     {
+        "title": "Tech SIPrepare SPA",
+        "description": "Plataforma SPA para alunos de Sistemas de Informação enviarem vídeos de resolução do ENADE.",
+        "category": "uiux",
+        "tags": [
+            {
+                "name": "Fullstack",
+                "class": "bg-ui"
+            },
+            {
+                "name": "Real Project",
+                "class": "bg-ui"
+            },
+            {
+                "name": "Sheets API",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "https://techsiprepare.github.io/",
+        "repoUrl": "https://github.com/techsiprepare/techsiprepare.github.io",
+        "challenge": "Disponibilizar uma plataforma intuitiva e de baixo custo de manutenção para alunos de Sistemas de Informação resolverem questões do ENADE e acessarem explicações em vídeo sem dependência de infraestrutura paga de banco de dados.",
+        "solution": "Desenvolvi uma SPA (Single Page Application) em Vanilla JavaScript baseada em arquivos estáticos que consome dados dinâmicos do Google Sheets. A interface oferece filtragem de questões por ano, gabaritos em tempo real e integração com vídeos explicativos do YouTube."
+    },
+    {
+        "title": "ENADE Searcher & Data Engine",
+        "description": "Engine de busca, parseamento e estruturação de questões do ENADE.",
+        "category": "logic",
+        "tags": [
+            {
+                "name": "Python",
+                "class": "bg-logic"
+            },
+            {
+                "name": "OCR / Tesseract",
+                "class": "bg-back"
+            },
+            {
+                "name": "Data",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/techsiprepare/enade-searcher",
+        "challenge": "Processar e mapear com precisão questões de provas do ENADE em arquivos PDF heterogêneos, superando problemas de digitalização, falta de texto nativo em certas páginas e inconsistências na numeração de questões objetivas e discursivas.",
+        "solution": "Desenvolvi uma ferramenta em Python com pipeline híbrida unificada. O sistema analisa a sequência textual das páginas, identifica lacunas e aplica OCR via Tesseract e Poppler apenas onde necessário. Em seguida, um mapper inteligente com extração de layout remove rascunhos, trata duplicatas e gera um CSV estruturado mapeando IDs, questões, tipos e páginas."
+    },
+    {
+        "title": "Response Lifecycle Management",
+        "description": "Gerenciador do ciclo de vida de submissões e respostas dos alunos (Tech SIPrepare).",
+        "category": "logic",
+        "tags": [
+            {
+                "name": "Architecture",
+                "class": "bg-logic"
+            },
+            {
+                "name": "Apps Script",
+                "class": "bg-back"
+            },
+            {
+                "name": "Backend",
+                "class": "bg-back"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/techsiprepare/response-lifecycle-management",
+        "challenge": "Gerenciar o fluxo de submissão de respostas dos estudantes sem comprometer a performance e a consistência dos dados.",
+        "solution": "Implementei um pipeline de backend serverless via Google Apps Script que trata o ciclo de vida do envio de respostas, registra histórico de tentativas e gera métricas para o sistema de avaliação continuada do projeto."
+    },
+    {
         "title": "Fran Luz Fotografia",
         "description": "Site portifólio para fotógrafa em Ouro Branco - MG",
         "category": "uiux",
