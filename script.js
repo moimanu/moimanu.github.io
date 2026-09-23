@@ -15,9 +15,9 @@ async function loadProjects() {
 
 function getRandomLayoutClass() {
     const random = Math.random();
-    if (random < 0.6) return '';
-    if (random < 0.8) return 'wide';
-    return 'tall';
+    if (random < 0.6) return ''; // Aqui pode ser vazio (normal)
+    if (random < 0.8) return ''; // Aqui pode ser wide
+    return ''; // Aqui pode ser tall
 }
 
 // 2. Construção de Interface (Cards)

@@ -92,6 +92,79 @@
         "solution": "Desenvolvi uma galeria otimizada com lazy loading e uma arquitetura focada no usuário (User-Centric), reduzindo a taxa de rejeição do portfólio antigo. O layout foi desenhado no Figma antes da implementação final."
     },
     {
+        "title": "Fila de Hospital em Tempo Real",
+        "description": "API para captura de logs hospitalares e sincronização de filas de atendimento.",
+        "category": "logic",
+        "tags": [
+            {
+                "name": "Node.js",
+                "class": "bg-back"
+            },
+            {
+                "name": "Firebase",
+                "class": "bg-back"
+            },
+            {
+                "name": "TypeScript",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "https://hospital-queue-api.vercel.app/",
+        "repoUrl": "https://github.com/moimanu/hospital-queue-api",
+        "challenge": "Expor a fila de atendimento de um hospital em tempo real para os cidadãos sem expor informações sensíveis ou sobrecarregar a infraestrutura com dados pessoais.",
+        "solution": "Desenvolvimento de uma API para registo de logs e persistência num banco de dados local (SQLite), sincronizando dados simplificados e anónimos com o Firebase Realtime Database para exibição no front-end."
+    },
+    {
+        "title": "SDD Architect",
+        "description": "Plugin para arquitetura Spec-Driven Development (SDD) e governança.",
+        "category": "logic",
+        "tags": [
+            {
+                "name": "Architecture",
+                "class": "bg-logic"
+            },
+            {
+                "name": "OpenSpec",
+                "class": "bg-back"
+            },
+            {
+                "name": "AI Agents",
+                "class": "bg-ui"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/moimanu/sdd-architect-plugin.git",
+        "challenge": "Garantir a organização rigorosa do workspace e gerir o ciclo de vida de especificações técnicas sem degradar a janela de contexto das IAs nem alterar especificações ativas sem propostas validadas.",
+        "solution": "Criação de um assistente automatizado que segrega a infraestrutura de agentes (.agents/) das especificações (openspec/), aplicando governança estrita (SDD-001/002/003) e um fluxo de interação em 3 etapas para geração automatizada de artefatos."
+    },
+    {
+        "title": "Sistemas Distribuidos",
+        "description": "Atividades práticas explorando Serialização, REST, MQTT e gRPC.",
+        "category": "logic",
+        "tags": [
+            {
+                "name": "Python",
+                "class": "bg-logic"
+            },
+            {
+                "name": "MQTT",
+                "class": "bg-back"
+            },
+            {
+                "name": "gRPC",
+                "class": "bg-back"
+            },
+            {
+                "name": "REST API",
+                "class": "bg-ui"
+            }
+        ],
+        "prodUrl": "",
+        "repoUrl": "https://github.com/moimanu/sistemas-distribuidos",
+        "challenge": "Implementar e comparar diferentes paradigmas de comunicação e arquiteturas distribuídas (event-driven via MQTT, RPC via gRPC, REST e comunicação por sockets TCP com múltiplos formatos de serialização) em um cenário simulado em tempo real.",
+        "solution": "Desenvolvimento de uma suíte prática em Python que engloba um broker/dashboard MQTT com LWT, servidor/cliente gRPC com contratos Proto, API FastAPI RESTful e servidor Socket TCP de serialização multinível (JSON, XML, YAML, CSV, TOML)."
+    },
+    {
         "title": "Tutu Beans",
         "description": "Publicação automática de notas do Obsidian via API.",
         "category": "logic",
