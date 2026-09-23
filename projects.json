@@ -133,7 +133,7 @@
             }
         ],
         "prodUrl": "",
-        "repoUrl": "https://github.com/moimanu/sdd-architect-plugin.git",
+        "repoUrl": "https://github.com/moimanu/sdd-architect-plugin",
         "challenge": "Garantir a organização rigorosa do workspace e gerir o ciclo de vida de especificações técnicas sem degradar a janela de contexto das IAs nem alterar especificações ativas sem propostas validadas.",
         "solution": "Criação de um assistente automatizado que segrega a infraestrutura de agentes (.agents/) das especificações (openspec/), aplicando governança estrita (SDD-001/002/003) e um fluxo de interação em 3 etapas para geração automatizada de artefatos."
     },
@@ -206,7 +206,7 @@
             }
         ],
         "prodUrl": "https://corrida-site.vercel.app/",
-        "repoUrl": "",
+        "repoUrl": "https://github.com/moimanu/corrida-site",
         "challenge": "Validar a viabilidade de um portal de eventos de corrida que fosse alimentado de forma descentralizada e sem a necessidade de um banco de dados complexo ou painel administrativo robusto.",
         "solution": "Desenvolvi um MVP funcional utilizando Vanilla JS para consumir e tratar dados diretamente de uma planilha pública via CSV. A interface foca na clareza da informação e performance, servindo como prova de conceito para uma arquitetura ágil e de baixo custo de manutenção."
     },
