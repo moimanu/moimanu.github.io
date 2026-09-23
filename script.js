@@ -13,10 +13,18 @@ async function loadProjects() {
     }
 }
 
+function getRandomLayoutClass() {
+    const random = Math.random();
+    if (random < 0.6) return '';
+    if (random < 0.8) return 'wide';
+    return 'tall';
+}
+
 // 2. Construção de Interface (Cards)
 function renderCards() {
     if (!grid) return;
     grid.innerHTML = projectsData.map(p => {
+        const layoutClass = getRandomLayoutClass();
         const tags = p.tags.map(t => `<span class="tag ${t.class}">${t.name}</span>`).join('');
         const links = [
             { url: p.prodUrl, icon: 'external-link', label: 'Produção' },
@@ -27,7 +35,7 @@ function renderCards() {
             </a>`).join('');
 
         return `
-            <div class="card ${p.layoutClass || ''}" data-category="${p.category}" onclick="expandCard(this)">
+            <div class="card ${layoutClass}" data-category="${p.category}" onclick="expandCard(this)">
                 <button class="minimize-btn" onclick="minimizeCard(event, this)"><i data-lucide="minus"></i></button>
                 <div class="tags-wrapper">${tags}</div>
                 <div class="card-header"><h3>${p.title}</h3><p>${p.description}</p></div>

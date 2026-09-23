@@ -3,7 +3,6 @@
         "title": "Fran Luz Fotografia",
         "description": "Site portifólio para fotógrafa em Ouro Branco - MG",
         "category": "uiux",
-        "layoutClass": "",
         "tags": [
             {
                 "name": "Fullstack",
@@ -26,7 +25,6 @@
         "title": "Tutu Beans",
         "description": "Publicação automática de notas do Obsidian via API.",
         "category": "logic",
-        "layoutClass": "",
         "tags": [
             {
                 "name": "TypeScript",
@@ -49,7 +47,6 @@
         "title": "Conexão Planilha/Site",
         "description": "Sugestão de publicação de eventos de corrida utilizando planilha simples.",
         "category": "uiux",
-        "layoutClass": "",
         "tags": [
             {
                 "name": "Fullstack",
@@ -72,7 +69,6 @@
         "title": "Plataforma de aulas",
         "description": "Interface administrativa com foco em usabilidade e design limpo.",
         "category": "uiux",
-        "layoutClass": "",
         "tags": [
             {
                 "name": "Responsive",
@@ -95,7 +91,6 @@
         "title": "Links Launcher",
         "description": "Interface simples para adicionar links pessoais mais acessados.",
         "category": "uiux",
-        "layoutClass": "wide",
         "tags": [
             {
                 "name": "Frontend",
@@ -118,7 +113,6 @@
         "title": "Gamificação",
         "description": "Exploração de feedbacks visuais para melhorar o engajamento.",
         "category": "uiux",
-        "layoutClass": "",
         "tags": [
             {
                 "name": "Interactivity",
@@ -137,7 +131,6 @@
         "title": "List Gym",
         "description": "App focado em rotinas fitness com interface simplificada.",
         "category": "uiux",
-        "layoutClass": "",
         "tags": [
             {
                 "name": "Product Design",
@@ -156,7 +149,6 @@
         "title": "Trabalhos de POO",
         "description": "Estruturação de sistemas robustos e escaláveis em Java.",
         "category": "logic",
-        "layoutClass": "tall",
         "tags": [
             {
                 "name": "Java",
@@ -179,7 +171,6 @@
         "title": "Exercícios de Lógica",
         "description": "Desafios matemáticos e estruturais resolvidos com código eficiente.",
         "category": "logic",
-        "layoutClass": "",
         "tags": [
             {
                 "name": "Algorithms",
@@ -198,7 +189,6 @@
         "title": "CAD Atendimentos",
         "description": "Sistema de gerenciamento de dados e cadastros hospitalares.",
         "category": "logic",
-        "layoutClass": "",
         "tags": [
             {
                 "name": "Backend",
@@ -217,7 +207,6 @@
         "title": "Fundamentos POO",
         "description": "Base sólida em abstração e pilares de objetos.",
         "category": "logic",
-        "layoutClass": "wide",
         "tags": [
             {
                 "name": "Concepts",
@@ -236,7 +225,6 @@
         "title": "Intro Prog",
         "description": "A base fundamental da minha jornada como desenvolvedor.",
         "category": "logic",
-        "layoutClass": "",
         "tags": [
             {
                 "name": "Beginner",
@@ -255,7 +243,6 @@
         "title": "Simulador de Arquivos",
         "description": "Simulação técnica de gerenciamento de baixo nível.",
         "category": "team",
-        "layoutClass": "wide",
         "tags": [
             {
                 "name": "Java",
@@ -278,7 +265,6 @@
         "title": "Video Processing",
         "description": "Manipulação de dados de mídia e processamento de imagem.",
         "category": "team",
-        "layoutClass": "tall",
         "tags": [
             {
                 "name": "Processing",
@@ -301,7 +287,6 @@
         "title": "ESOF1 Project",
         "description": "Projeto de engenharia de software desenvolvido em ambiente colaborativo.",
         "category": "team",
-        "layoutClass": "",
         "tags": [
             {
                 "name": "Agile",
@@ -324,7 +309,6 @@
         "title": "Escalonamento",
         "description": "Otimização de fluxos em tempo real feita em equipe.",
         "category": "team",
-        "layoutClass": "",
         "tags": [
             {
                 "name": "Teamwork",
