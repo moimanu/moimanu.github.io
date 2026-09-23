@@ -1,7 +1,7 @@
 [
     {
         "title": "Tech SIPrepare SPA",
-        "description": "Plataforma SPA para alunos de Sistemas de Informação enviarem vídeos de resolução do ENADE.",
+        "description": "Plataforma SPA para envio de vídeos de resolução do ENADE.",
         "category": "uiux",
         "tags": [
             {
@@ -47,7 +47,7 @@
     },
     {
         "title": "Response Lifecycle Management",
-        "description": "Gerenciador do ciclo de vida de submissões e respostas dos alunos (Tech SIPrepare).",
+        "description": "Gerenciador do ciclo de vida de submissões (Tech SIPrepare).",
         "category": "logic",
         "tags": [
             {
