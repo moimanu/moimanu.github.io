@@ -9,7 +9,7 @@ async function loadProjects() {
         projectsData = await response.json();
         renderCards();
     } catch {
-        if (grid) grid.innerHTML = "<p style='text-align:center;'>Erro ao carregar os projetos. Verifique o console.</p>";
+        if (grid) grid.innerHTML = "<p class='error-message'>Erro ao carregar os projetos. Verifique o console.</p>";
     }
 }
 
@@ -23,7 +23,7 @@ function renderCards() {
             { url: p.repoUrl, icon: 'git-branch', label: 'Repositório' }
         ].filter(l => l.url).map(l => `
             <a href="${l.url}" target="_blank" class="card-link-btn" onclick="event.stopPropagation()">
-                <i data-lucide="${l.icon}" style="width:16px; height:16px;"></i> ${l.label}
+                <i data-lucide="${l.icon}" class="lucide-icon"></i> ${l.label}
             </a>`).join('');
 
         return `
@@ -41,16 +41,16 @@ function renderCards() {
 // 3. Sistema de Filtros
 function filterProjects(category, btn) {
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
-    
+
     document.querySelectorAll('.card').forEach(card => {
-        if (card.classList.contains('expanded')) minimizeCard({ stopPropagation: () => {} }, card.querySelector('.minimize-btn'));
-        
+        if (card.classList.contains('expanded')) minimizeCard({ stopPropagation: () => { } }, card.querySelector('.minimize-btn'));
+
         const isVisible = category === 'all' || card.getAttribute('data-category') === category;
         card.classList.toggle('hidden', !isVisible);
         if (isVisible) {
-            card.style.animation = 'none';
+            card.classList.remove('animate-fade-in');
             card.offsetHeight; // Trigger reflow
-            card.style.animation = 'fadeIn 0.5s ease forwards';
+            card.classList.add('animate-fade-in');
         }
     });
 }
@@ -63,7 +63,7 @@ function expandCard(card) {
     const placeholder = card.cloneNode(false);
     placeholder.className += ' placeholder';
     placeholder.style.visibility = 'hidden';
-    
+
     card._placeholder = placeholder;
     card.parentNode.insertBefore(placeholder, card);
 
