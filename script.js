@@ -34,12 +34,24 @@ function renderCards() {
                 <i data-lucide="${l.icon}" class="lucide-icon"></i> ${l.label}
             </a>`).join('');
 
+        // Constrói os detalhes dinamicamente baseando-se em challenge e solution
+        let detailsHTML = '';
+        if (p.challenge) {
+            detailsHTML += `<h2>O Desafio</h2><p>${p.challenge}</p>`;
+        }
+        if (p.solution) {
+            detailsHTML += `<h2>A Solução</h2><p>${p.solution}</p>`;
+        }
+        if (!detailsHTML) {
+            detailsHTML = '<p>Detalhes adicionais em breve...</p>';
+        }
+
         return `
             <div class="card ${layoutClass}" data-category="${p.category}" onclick="expandCard(this)">
                 <button class="minimize-btn" onclick="minimizeCard(event, this)"><i data-lucide="minus"></i></button>
                 <div class="tags-wrapper">${tags}</div>
                 <div class="card-header"><h3>${p.title}</h3><p>${p.description}</p></div>
-                <div class="card-details">${p.details || '<p>Detalhes adicionais em breve...</p>'}</div>
+                <div class="card-details">${detailsHTML}</div>
                 ${links ? `<div class="card-links">${links}</div>` : ''}
             </div>`;
     }).join('');

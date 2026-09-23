@@ -19,7 +19,8 @@
         ],
         "prodUrl": "https://franluzfotografia.com/",
         "repoUrl": "",
-        "details": "<h2>O Desafio</h2><p>Criar uma plataforma que transmitisse a essência e o olhar da fotógrafa, garantindo que as imagens carregassem rápido e a navegação fosse intuitiva para potenciais clientes.</p><br><h2>A Solução</h2><p>Desenvolvi uma galeria otimizada com lazy loading e uma arquitetura focada no usuário (User-Centric), reduzindo a taxa de rejeição do portfólio antigo. O layout foi desenhado no Figma antes da implementação final.</p>"
+        "challenge": "Criar uma plataforma que transmitisse a essência e o olhar da fotógrafa, garantindo que as imagens carregassem rápido e a navegação fosse intuitiva para potenciais clientes.",
+        "solution": "Desenvolvi uma galeria otimizada com lazy loading e uma arquitetura focada no usuário (User-Centric), reduzindo a taxa de rejeição do portfólio antigo. O layout foi desenhado no Figma antes da implementação final."
     },
     {
         "title": "Tutu Beans",
@@ -41,7 +42,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/moimanu/tutu-beans",
-        "details": "<h2>O Desafio</h2><p>Eliminar a fricção no fluxo de escrita técnica, onde o autor precisa mover arquivos manualmente, tratar imagens e atualizar metadados entre um editor local e um CMS remoto.</p><br><h2>A Solução</h2><p>Desenvolvi um plugin em TypeScript que transforma o Obsidian em uma central de publicação. O sistema automatiza a injeção de UUIDs e timestamps no frontmatter, gerencia o ciclo de vida do artigo e resolve o desafio de anexos convertendo imagens locais em Base64 para transmissão via API. O projeto conta com um Dashboard de Sincronização Global para gerenciar o estado dos arquivos em tempo real.</p>"
+        "challenge": "Eliminar a fricção no fluxo de escrita técnica, onde o autor precisa mover arquivos manualmente, tratar imagens e atualizar metadados entre um editor local e um CMS remoto.",
+        "solution": "Desenvolvi um plugin em TypeScript que transforma o Obsidian em uma central de publicação. O sistema automatiza a injeção de UUIDs e timestamps no frontmatter, gerencia o ciclo de vida do artigo e resolve o desafio de anexos convertendo imagens locais em Base64 para transmissão via API. O projeto conta com um Dashboard de Sincronização Global para gerenciar o estado dos arquivos em tempo real."
     },
     {
         "title": "Conexão Planilha/Site",
@@ -63,7 +65,8 @@
         ],
         "prodUrl": "https://corrida-site.vercel.app/",
         "repoUrl": "",
-        "details": "<h2>O Desafio</h2><p>Validar a viabilidade de um portal de eventos de corrida que fosse alimentado de forma descentralizada e sem a necessidade de um banco de dados complexo ou painel administrativo robusto.</p><br><h2>A Solução</h2><p>Desenvolvi um MVP funcional utilizando Vanilla JS para consumir e tratar dados diretamente de uma planilha pública via CSV. A interface foca na clareza da informação e performance, servindo como prova de conceito para uma arquitetura ágil e de baixo custo de manutenção.</p>"
+        "challenge": "Validar a viabilidade de um portal de eventos de corrida que fosse alimentado de forma descentralizada e sem a necessidade de um banco de dados complexo ou painel administrativo robusto.",
+        "solution": "Desenvolvi um MVP funcional utilizando Vanilla JS para consumir e tratar dados diretamente de uma planilha pública via CSV. A interface foca na clareza da informação e performance, servindo como prova de conceito para uma arquitetura ágil e de baixo custo de manutenção."
     },
     {
         "title": "Plataforma de aulas",
@@ -85,7 +88,8 @@
         ],
         "prodUrl": "https://myplataformame.vercel.app/",
         "repoUrl": "https://github.com/moimanu/my-plataforma",
-        "details": "<h2>O Desafio</h2><p>Superar a complexidade visual comum em painéis de ensino, criando uma interface administrativa que priorizasse a clareza cognitiva e a facilidade de gestão para o usuário final.</p><br><h2>A Solução</h2><p>Este projeto marcou meu aprofundamento na manipulação do DOM e na aplicação prática de fundamentos de Design Gráfico ao desenvolvimento Web. Utilizando Vanilla JS, HTML e CSS, foquei em uma hierarquia de informação rigorosa e micro-interações que reforçam a usabilidade, resultando em uma experiência minimalista e intuitiva.</p>"
+        "challenge": "Superar a complexidade visual comum em painéis de ensino, criando uma interface administrativa que priorizasse a clareza cognitiva e a facilidade de gestão para o usuário final.",
+        "solution": "Este projeto marcou meu aprofundamento na manipulação do DOM e na aplicação prática de fundamentos de Design Gráfico ao desenvolvimento Web. Utilizando Vanilla JS, HTML e CSS, foquei em uma hierarquia de informação rigorosa e micro-interações que reforçam a usabilidade, resultando em uma experiência minimalista e intuitiva."
     },
     {
         "title": "Links Launcher",
@@ -107,7 +111,8 @@
         ],
         "prodUrl": "https://mylinksme.vercel.app/",
         "repoUrl": "https://github.com/moimanu/my-links",
-        "details": "<h2>O Desafio</h2><p>Centralizar um workspace digital com links frequentes de forma rápida, eliminando a dependência de favoritos do navegador e garantindo que o acesso fosse instantâneo.</p><br><h2>A Solução</h2><p>Desenvolvi um agregador de links do zero utilizando Vanilla JS, focado na persistência de dados via LocalStorage e manipulação dinâmica de arrays para a gestão da lista. O projeto prioriza a performance e micro-interações, servindo como uma ferramenta de produtividade pessoal que consolida conceitos fundamentais de lógica e armazenamento em client-side.</p>"
+        "challenge": "Centralizar um workspace digital com links frequentes de forma rápida, eliminando a dependência de favoritos do navegador e garantindo que o acesso fosse instantâneo.",
+        "solution": "Desenvolvi um agregador de links do zero utilizando Vanilla JS, focado na persistência de dados via LocalStorage e manipulação dinâmica de arrays para a gestão da lista. O projeto prioriza a performance e micro-interações, servindo como uma ferramenta de produtividade pessoal que consolida conceitos fundamentais de lógica e armazenamento em client-side."
     },
     {
         "title": "Gamificação",
@@ -125,7 +130,8 @@
         ],
         "prodUrl": "https://gamificacao-teste.vercel.app/",
         "repoUrl": "https://github.com/moimanu/gamificacao-prototipo",
-        "details": "<h2>O Desafio</h2><p>Identificar oportunidades de melhoria no engajamento da equipe em uma Empresa Júnior, onde o acompanhamento de metas era feito de forma burocrática e pouco visual via planilhas.</p><br><h2>A Solução</h2><p>Tomei a iniciativa de projetar um wireframe de alta fidelidade que traduzisse a mecânica de pontos em uma experiência gamificada. O foco do projeto foi o Design de Interface (UI) e a Experiência do Usuário (UX), aplicando psicologia das cores e hierarquia visual para criar um leaderboard dinâmico que estimulasse a competitividade saudável e a visibilidade de resultados.</p>"
+        "challenge": "Identificar oportunidades de melhoria no engajamento da equipe em uma Empresa Júnior, onde o acompanhamento de metas era feito de forma burocrática e pouco visual via planilhas.",
+        "solution": "Tomei a iniciativa de projetar um wireframe de alta fidelidade que traduzisse a mecânica de pontos em uma experiência gamificada. O foco do projeto foi o Design de Interface (UI) e a Experiência do Usuário (UX), aplicando psicologia das cores e hierarquia visual para criar um leaderboard dinâmico que estimulasse a competitividade saudável e a visibilidade de resultados."
     },
     {
         "title": "List Gym",
@@ -143,7 +149,8 @@
         ],
         "prodUrl": "https://listgym.vercel.app/index.html",
         "repoUrl": "https://github.com/moimanu/list-gym",
-        "details": "<h2>O Desafio</h2><p>Reduzir a fricção e a distração causada por aplicativos de fitness convencionais, que frequentemente utilizam excesso de cores, gamificação e fluxos complexos que interrompem o foco durante o treino.</p><br><h2>A Solução</h2><p>Desenvolvi meu primeiro projeto com foco em PWA, priorizando uma experiência Mobile-First extremamente limpa. A interface foi desenhada para emular a simplicidade de uma ficha de papel, oferecendo apenas o necessário para o registro de rotinas. O resultado é uma ferramenta utilitária que respeita a atenção do usuário, eliminando ruídos visuais e focando na agilidade do registro físico.</p>"
+        "challenge": "Reduzir a fricção e a distração causada por aplicativos de fitness convencionais, que frequentemente utilizam excesso de cores, gamificação e fluxos complexos que interrompem o foco durante o treino.",
+        "solution": "Desenvolvi meu primeiro projeto com foco em PWA, priorizando uma experiência Mobile-First extremamente limpa. A interface foi desenhada para emular a simplicidade de uma ficha de papel, oferecendo apenas o necessário para o registro de rotinas. O resultado é uma ferramenta utilitária que respeita a atenção do usuário, eliminando ruídos visuais e focando na agilidade do registro físico."
     },
     {
         "title": "Trabalhos de POO",
@@ -165,7 +172,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/moimanu/trabalhos-de-poo",
-        "details": "<h2>O Desafio</h2><p>Aplicar de forma prática os pilares da Programação Orientada a Objetos em sistemas que exigissem gestão de dados e relacionamentos complexos entre entidades, indo além da sintaxe básica.</p><br><h2>A Solução</h2><p>Desenvolvi dois sistemas fundamentais em Java: uma gestão de biblioteca (com controle de empréstimos, livros e usuários) e um sistema de membros e gamificação. O projeto foca na estruturação de classes robustas e na persistência de dados via arquivos CSV, servindo como base sólida para o entendimento de abstração, encapsulamento e o fluxo de informações em aplicações backend.</p>"
+        "challenge": "Aplicar de forma prática os pilares da Programação Orientada a Objetos em sistemas que exigissem gestão de dados e relacionamentos complexos entre entidades, indo além da sintaxe básica.",
+        "solution": "Desenvolvi dois sistemas fundamentais em Java: uma gestão de biblioteca (com controle de empréstimos, livros e usuários) e um sistema de membros e gamificação. O projeto foca na estruturação de classes robustas e na persistência de dados via arquivos CSV, servindo como base sólida para o entendimento de abstração, encapsulamento e o fluxo de informações em aplicações backend."
     },
     {
         "title": "Exercícios de Lógica",
@@ -183,7 +191,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/moimanu/exercicios-de-logica",
-        "details": "<h2>O Desafio</h2><p>Desenvolver o raciocínio algorítmico necessário para competições de alto nível, focando em resolução de problemas sob pressão e otimização de recursos.</p><br><h2>A Solução</h2><p>Este repositório é o resultado de um treinamento intensivo de 8 semanas com foco nos desafios da OBI (Olimpíada Brasileira de Informática). Os exercícios abordam desde lógica matemática básica até estruturas de dados mais complexas, focando na eficiência do código para passar em testes de performance e casos de borda técnicos.</p>"
+        "challenge": "Desenvolver o raciocínio algorítmico necessário para competições de alto nível, focando em resolução de problemas sob pressão e otimização de recursos.",
+        "solution": "Este repositório é o resultado de um treinamento intensivo de 8 semanas com foco nos desafios da OBI (Olimpíada Brasileira de Informática). Os exercícios abordam desde lógica matemática básica até estruturas de dados mais complexas, focando na eficiência do código para passar em testes de performance e casos de borda técnicos."
     },
     {
         "title": "CAD Atendimentos",
@@ -201,7 +210,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/moimanu/cad-atendimentos",
-        "details": "<h2>O Desafio</h2><p>Compreender a arquitetura de sistemas web corporativos, garantindo que a lógica de negócio, a interface e o acesso aos dados fossem independentes e fáceis de manter.</p><br><h2>A Solução</h2><p>Desenvolvi um sistema de cadastro hospitalar focado na aplicação prática do padrão MVC utilizando Java. A estrutura separa rigorosamente as responsabilidades entre Controllers, Models e Services, proporcionando um fluxo de dados consistente e seguro. O projeto serviu para consolidar conhecimentos em desenvolvimento web backend e organização de projetos em camadas profissionais.</p>"
+        "challenge": "Compreender a arquitetura de sistemas web corporativos, garantindo que a lógica de negócio, a interface e o acesso aos dados fossem independentes e fáceis de manter.",
+        "solution": "Desenvolvi um sistema de cadastro hospitalar focado na aplicação prática do padrão MVC utilizando Java. A estrutura separa rigorosamente as responsabilidades entre Controllers, Models e Services, proporcionando um fluxo de dados consistente e seguro. O projeto serviu para consolidar conhecimentos em desenvolvimento web backend e organização de projetos em camadas profissionais."
     },
     {
         "title": "Fundamentos POO",
@@ -219,7 +229,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/moimanu/conceitos-fundamentais-poo",
-        "details": "<p>Projetos iniciais focados no entendimento dos quatro pilares da Programação Orientada a Objetos: Abstração, Encapsulamento, Herança e Polimorfismo.</p>"
+        "challenge": "",
+        "solution": "Projetos iniciais focados no entendimento dos quatro pilares da Programação Orientada a Objetos: Abstração, Encapsulamento, Herança e Polimorfismo."
     },
     {
         "title": "Intro Prog",
@@ -237,7 +248,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/moimanu/exercicios-intro-prog",
-        "details": "<p>Os primeiros passos. Este repositório reflete a evolução lógica da sintaxe básica até estruturas de controle de fluxo e laços de repetição.</p>"
+        "challenge": "",
+        "solution": "Os primeiros passos. Este repositório reflete a evolução lógica da sintaxe básica até estruturas de controle de fluxo e laços de repetição."
     },
     {
         "title": "Simulador de Arquivos",
@@ -259,7 +271,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/allysson-assuncao/simulador-sistema-de-arquivos",
-        "details": "<h2>O Desafio</h2><p>Simular o funcionamento interno de um Sistema Operacional, focando na gestão de um sistema de arquivos e na execução de comandos via terminal (shell), garantindo a integridade dos dados e a hierarquia de diretórios.</p><br><h2>A Solução</h2><p>Desenvolvido em colaboração acadêmica, este simulador traduz conceitos complexos de SO para uma arquitetura robusta em Java. Utilizamos recursos avançados de POO, como expressões Lambda, para processar comandos de forma funcional e eficiente. O projeto simula operações reais do Linux, gerenciando a alocação de blocos e metadados, sendo um marco na minha compreensão de como software e hardware interagem.</p>"
+        "challenge": "Simular o funcionamento interno de um Sistema Operacional, focando na gestão de um sistema de arquivos e na execução de comandos via terminal (shell), garantindo a integridade dos dados e a hierarquia de diretórios.",
+        "solution": "Desenvolvido em colaboração acadêmica, este simulador traduz conceitos complexos de SO para uma arquitetura robusta em Java. Utilizamos recursos avançados de POO, como expressões Lambda, para processar comandos de forma funcional e eficiente. O projeto simula operações reais do Linux, gerenciando a alocação de blocos e metadados, sendo um marco na minha compreensão de como software e hardware interagem."
     },
     {
         "title": "Video Processing",
@@ -281,7 +294,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/allysson-assuncao/VideoProcessing",
-        "details": "<h2>O Desafio</h2><p>Restaurar a qualidade visual de um vídeo antigo afetado por ruídos do tipo 'Salt and Pepper', utilizando técnicas de computação paralela para viabilizar o processamento de grandes matrizes de dados em tempo hábil.</p><br><h2>A Solução</h2><p>Desenvolvido como projeto prático de Organização de Computadores, este trabalho focou na implementação de algoritmos de filtragem de imagem aplicados frame a frame. O diferencial foi a aplicação de conceitos de arquitetura e paralelismo, otimizando o tratamento de pixels para aproveitar o hardware disponível. Foi um marco no entendimento de como a organização do computador dita o limite da performance de software complexos.</p>"
+        "challenge": "Restaurar a qualidade visual de um vídeo antigo afetado por ruídos do tipo 'Salt and Pepper', utilizando técnicas de computação paralela para viabilizar o processamento de grandes matrizes de dados em tempo hábil.",
+        "solution": "Desenvolvido como projeto prático de Organização de Computadores, este trabalho focou na implementação de algoritmos de filtragem de imagem aplicados frame a frame. O diferencial foi a aplicação de conceitos de arquitetura e paralelismo, otimizando o tratamento de pixels para aproveitar o hardware disponível. Foi um marco no entendimento de como a organização do computador dita o limite da performance de software complexos."
     },
     {
         "title": "ESOF1 Project",
@@ -303,7 +317,8 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/allysson-assuncao/esof1-project",
-        "details": "<h2>O Desafio</h2><p>Integrar-se a uma equipe de desenvolvimento de alunos experientes, adaptando-se rapidamente a um fluxo de trabalho profissional sob metodologias ágeis e uma stack tecnológica desconhecida.</p><br><h2>A Solução</h2><p>Este projeto foi minha porta de entrada para a Engenharia de Software aplicada. Atuei em um ambiente de sprints reais, onde aprendi na prática a importância do controle de versão, documentação de requisitos e comunicação em equipe. Mais do que o resultado técnico, o projeto simboliza um salto de maturidade profissional, onde superei a barreira do conhecimento inicial para contribuir com as entregas do time.</p>"
+        "challenge": "Integrar-se a uma equipe de desenvolvimento de alunos experientes, adaptando-se rapidamente a um fluxo de trabalho profissional sob metodologias ágeis e uma stack tecnológica desconhecida.",
+        "solution": "Este projeto foi minha porta de entrada para a Engenharia de Software aplicada. Atuei em um ambiente de sprints reais, onde aprendi na prática a importância do controle de versão, documentação de requisitos e comunicação em equipe. Mais do que o resultado técnico, o projeto simboliza um salto de maturidade profissional, onde superei a barreira do conhecimento inicial para contribuir com as entregas do time."
     },
     {
         "title": "Escalonamento",
@@ -321,6 +336,7 @@
         ],
         "prodUrl": "",
         "repoUrl": "https://github.com/allysson-assuncao/escalonamento-de-pacientes",
-        "details": "<h2>O Desafio</h2><p>Simular a gestão de recursos de uma CPU através de diferentes algoritmos de escalonamento, analisando métricas de performance como tempo de espera e turnaround em um contexto hospitalar hipotético.</p><br><h2>A Solução</h2><p>Desenvolvi, em conjunto com a equipe, um simulador que implementa as principais estratégias de escalonamento de Sistemas Operacionais: Round Robin, SJF, SRTF e Prioridade. O projeto utiliza uma arquitetura orientada a interfaces em Java, garantindo a modularidade do código e facilitando a comparação visual entre a eficiência de cada algoritmo no processamento de filas de tarefas.</p>"
+        "challenge": "Simular a gestão de recursos de uma CPU através de diferentes algoritmos de escalonamento, analisando métricas de performance como tempo de espera e turnaround em um contexto hospitalar hipotético.",
+        "solution": "Desenvolvi, em conjunto com a equipe, um simulador que implementa as principais estratégias de escalonamento de Sistemas Operacionais: Round Robin, SJF, SRTF e Prioridade. O projeto utiliza uma arquitetura orientada a interfaces em Java, garantindo a modularidade do código e facilitando a comparação visual entre a eficiência de cada algoritmo no processamento de filas de tarefas."
     }
 ]
