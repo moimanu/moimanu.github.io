@@ -561,20 +561,28 @@ header h1 {
 /* Mobile Específico para Expansão */
 @media (max-width: 768px) {
     .card.expanded {
-        padding: 40px 20px;
+        height: 100dvh;
+        max-height: 100dvh;
+        padding: 60px 20px calc(20px + env(safe-area-inset-bottom)) 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        z-index: 9999;
     }
 
     .card.expanded .minimize-btn {
-        top: 20px;
+        top: 15px;
         right: 20px;
     }
 
     .card.expanded .card-header h3 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .card.expanded .card-links {
         justify-content: center;
+        margin-bottom: 20px;
     }
 }
 
