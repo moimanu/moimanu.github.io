@@ -46,6 +46,29 @@
         "solution": "Desenvolvi uma ferramenta em Python com pipeline híbrida unificada. O sistema analisa a sequência textual das páginas, identifica lacunas e aplica OCR via Tesseract e Poppler apenas onde necessário. Em seguida, um mapper inteligente com extração de layout remove rascunhos, trata duplicatas e gera um CSV estruturado mapeando IDs, questões, tipos e páginas."
     },
     {
+        "title": "Mapa de Carreira Radial BSI",
+        "description": "Visualização interativa e mapeamento radial do currículo de Sistemas de Informação.",
+        "category": "uiux",
+        "tags": [
+            {
+                "name": "D3.js",
+                "class": "bg-ui"
+            },
+            {
+                "name": "Vanilla JS",
+                "class": "bg-ui"
+            },
+            {
+                "name": "Data Viz",
+                "class": "bg-logic"
+            }
+        ],
+        "prodUrl": "https://radial-career-map.vercel.app/",
+        "repoUrl": "https://github.com/moimanu/system-information-radial-career-map",
+        "challenge": "Representar a grade curricular do curso de BSI em um mapa conceitual sem poluir a interface visual nem dificultar a navegação de dependências entre disciplinas.",
+        "solution": "Construção de uma aplicação web interativa em D3.js e SVG modularizado em arquitetura baseada em eventos (EventBus, Store e Design Patterns como Strategy). O sistema renderiza o PPC do curso em anéis radiais interativos, visualização focal em árvore de dependências e filtros dinâmicos por eixos de formação e natureza das disciplinas."
+    },
+    {
         "title": "Response Lifecycle Management",
         "description": "Gerenciador do ciclo de vida de submissões (Tech SIPrepare).",
         "category": "logic",
